@@ -276,9 +276,6 @@ pdftotext output.pdf - -f $PAGE -l $PAGE | grep -c .
 
 以上参数经过多次调试，不要随意改。
 
-## 项目专用实例
+## 字数限制参考
 
-需要为特定项目生成软著材料时，参照以下项目实例获取具体路径和细节：
-
-- **章台 ChangeTale**: 见 `references/changetale-copyright-prep.md` — 著作权人梁起珩、源码列表、截图清单、版本号同步流程
-- **字段字数限制**: 见 `references/field-limits.md` — 申请表各字段字数限制速查表（2026年6月调研）
+- `references/field-limits.md` — 申请表各字段字数限制速查表（2026年6月调研）

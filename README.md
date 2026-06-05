@@ -89,9 +89,8 @@ Agent 会自动引导你完成全部流程。
 │   └── convert_to_pdf.py             # 通用 PDF 生成器
 ├── templates/
 │   └── manual-template.md            # 说明书 Markdown 模板
-└── references/
-    ├── changetale-copyright-prep.md  # 章台项目实例参考
-    └── field-limits.md               # 字数限制详细说明
+├── references/
+│   └── field-limits.md             # 字数限制详细说明
 ```
 
 ## ⚠️ 常见坑（必读）
@@ -116,9 +115,8 @@ Agent 会自动引导你完成全部流程。
 
 使用 **Node.js Playwright API** 生成 PDF，不要用 Chromium CLI 的 `--print-to-pdf`（会忽略 `@page` CSS 导致行数不可控）。
 
-## 📌 项目实例
+## 📌 参考资料
 
-- **章台 ChangeTale**: 参见 `references/changetale-copyright-prep.md` — 著作权人、源码列表、截图清单、版本号同步流程
 - **字段字数限制**: 参见 `references/field-limits.md` — 申请表各字段字数限制速查表
 
 ## 📜 许可证

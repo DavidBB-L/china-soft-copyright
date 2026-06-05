@@ -28,7 +28,6 @@ china-soft-copyright/
 ├── templates/
 │   └── manual-template.md          # 说明书 Markdown 模板
 └── references/
-    ├── changetale-copyright-prep.md # 项目实例参考（章台）
     └── field-limits.md             # 字数限制详细说明
 ```
 
@@ -50,7 +49,6 @@ china-soft-copyright/
 ## 四、待办
 
 - [ ] BB 确认后上传 GitHub
-- [ ] 考虑是否需要更多项目实例（目前只有章台）
 
 ---
 
@@ -60,7 +58,6 @@ china-soft-copyright/
 - 主要功能 500-1300 字是审核重点，必须与说明书一致
 - 技术特点只有 100 字，提前精炼好
 - PDF 生成用 Node.js Playwright API，不用 Chromium CLI
-- 自用版有章台实例（references/changetale-copyright-prep.md），通用版已去掉
 
 ---
 
